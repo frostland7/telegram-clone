@@ -1,0 +1,43 @@
+.settings {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.settings h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.settings label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.settings input[type="text"], .settings input[type="email"], .settings select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.settings button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.settings button:hover {
+    background-color: #0056b3;
+}
